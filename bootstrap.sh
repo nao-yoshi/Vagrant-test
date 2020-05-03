@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ## Set timezone
-sudo cp /usr/share/zoneinfo/Japan /etc/localtime
 echo "========================================="
 echo "set timezone as JST"
 echo "========================================="
+sudo cp /usr/share/zoneinfo/Japan /etc/localtime
 
 ## Disable firewalld
 echo "========================================="
